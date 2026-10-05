@@ -1,0 +1,11 @@
+{
+  "scene": 2,
+  "theme": "Corporate Open Office & Glass Meeting Room",
+  "characters": 7,
+  "motion": "V10 reference head bob",
+  "head_drop_px": 3,
+  "neck_connector": "anchored taper",
+  "body_chair_furniture_movement_px": 0,
+  "frames": 10,
+  "staggered": true
+}

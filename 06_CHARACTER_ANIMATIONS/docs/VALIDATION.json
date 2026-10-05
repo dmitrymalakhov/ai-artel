@@ -1,0 +1,1149 @@
+{
+  "frameCount": 1792,
+  "animationCount": 224,
+  "verified": [
+    "RGBA transparency",
+    "128x128 individual frames",
+    "1024x4096 atlases",
+    "safe frame margins",
+    "nonempty artwork",
+    "all animation sequences vary",
+    "exact sit/stand endpoint matching",
+    "metadata references and timing",
+    "all 32 action buttons",
+    "furniture previews at desk/meeting/lounge",
+    "sit-idle-stand sequence",
+    "local-file loading without server",
+    "mobile layout",
+    "no browser errors",
+    "All 896 original v2 frame PNGs are byte-for-byte unchanged"
+  ],
+  "limitations": [
+    "No target engine project is present; Phaser and Godot integration has not been run in a game.",
+    "Seat anchors and furniture occlusion require calibration in the target scene.",
+    "Front/back sit/stand transitions are not provided; use documented lateral-turn staging."
+  ],
+  "clips": [
+    {
+      "character": "manager_navy",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "manager_navy",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_orange_yellow",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_dark_purple",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_green",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_black_charcoal",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_blond_blue",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "walk_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "walk_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "walk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "walk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "work_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "work_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "coffee",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "talk",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "laugh",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "celebrate",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "wave",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "think",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_idle_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_idle_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_idle_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_idle_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "work_down",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "work_up",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "sit_down_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "sit_down_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "stand_up_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "stand_up_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_coffee_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_coffee_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_talk_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "seated_talk_left",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "lounge_right",
+      "distinctFrames": 8
+    },
+    {
+      "character": "worker_brown_red",
+      "action": "lounge_left",
+      "distinctFrames": 8
+    }
+  ],
+  "furnitureCount": 12
+}

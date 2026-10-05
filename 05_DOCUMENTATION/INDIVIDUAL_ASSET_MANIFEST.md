@@ -1,0 +1,57 @@
+# 53 Individual Transparent Assets
+
+Each filename exists in both scene-scale and large-source folders.
+
+- `01_workstation_desk_L_empty.png`
+- `02_conference_table_empty.png`
+- `03_manager_desk_empty.png`
+- `04_coffee_table_empty.png`
+- `05_snack_storage_cabinet_empty.png`
+- `06_filing_shelf_empty.png`
+- `07_office_chair_teal.png`
+- `08_computer_monitor_black.png`
+- `09_keyboard_black.png`
+- `10_mouse_black.png`
+- `11_acoustic_divider_teal.png`
+- `12_drawer_pedestal_gray.png`
+- `13_desk_plant_small.png`
+- `14_office_waste_bin.png`
+- `15_conference_chair_teal.png`
+- `16_conference_centerpiece_plant.png`
+- `17_table_control_device.png`
+- `18_manager_chair_teal.png`
+- `19_bookcase_filled_variant.png`
+- `20_manager_monitor_left.png`
+- `21_manager_monitor_right.png`
+- `22_wall_analytics_dashboard.png`
+- `23_sofa_blue.png`
+- `24_lounge_armchair_teal.png`
+- `25_office_magazine.png`
+- `26_water_dispenser.png`
+- `27_multifunction_printer.png`
+- `28_filing_cabinet_filled_variant.png`
+- `29_noticeboard_notes.png`
+- `30_floor_plant_large.png`
+- `31_floor_plant_small.png`
+- `32_recycling_bin_blue.png`
+- `33_microwave_black.png`
+- `34_coffee_machine.png`
+- `35_snack_bowl.png`
+- `36_snack_bag.png`
+- `37_sofa_cushion_orange.png`
+- `38_sofa_cushion_teal.png`
+- `39_office_binder_single.png`
+- `40_storage_box_small.png`
+- `41_bookcase_tall_empty.png`
+- `42_wood_floor_tile.png`
+- `43_meeting_carpet_tile.png`
+- `44_lounge_rug_orange.png`
+- `45_glass_wall_panel.png`
+- `46_glass_meeting_door.png`
+- `47_glass_entrance_double_door.png`
+- `48_wall_sconce_cream.png`
+- `49_framed_city_picture.png`
+- `50_access_control_terminal.png`
+- `51_indoor_planter_box.png`
+- `52_exterior_flower_planter.png`
+- `53_low_side_cabinet.png`

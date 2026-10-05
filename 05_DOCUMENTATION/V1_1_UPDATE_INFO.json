@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "version": "v1.1",
+  "standalone_characters": 7,
+  "individual_character_pose_designs": 28,
+  "individual_character_pose_pngs_two_sizes": 56,
+  "character_spritesheets": 14,
+  "transparent_character_files": 70,
+  "furniture_assets_unchanged": 53,
+  "character_chroma_fringe_pixels": 0,
+  "temp_files": 0
+}

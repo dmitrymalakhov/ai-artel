@@ -1,0 +1,2445 @@
+{
+  "referenceHeadWidth": 48,
+  "frames": [
+    {
+      "action": "seated_idle_down",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 25,
+        "right": 90,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 38,
+        "w": 46,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 145,
+        "top": 26,
+        "right": 198,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 39,
+        "w": 46,
+        "h": 74
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 25,
+        "right": 307,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 38,
+        "w": 46,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 362,
+        "top": 26,
+        "right": 415,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 39,
+        "w": 46,
+        "h": 74
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 471,
+        "top": 25,
+        "right": 524,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 38,
+        "w": 46,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 580,
+        "top": 25,
+        "right": 633,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 38,
+        "w": 46,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 689,
+        "top": 25,
+        "right": 742,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 38,
+        "w": 46,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 0,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 796,
+        "top": 25,
+        "right": 850,
+        "bottom": 112
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 38,
+        "w": 47,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 118,
+        "right": 90,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 146,
+        "top": 118,
+        "right": 198,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 255,
+        "top": 118,
+        "right": 307,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 364,
+        "top": 118,
+        "right": 415,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 44,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 472,
+        "top": 118,
+        "right": 524,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 581,
+        "top": 118,
+        "right": 632,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 44,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 690,
+        "top": 118,
+        "right": 742,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 1,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 798,
+        "top": 118,
+        "right": 850,
+        "bottom": 207
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 218,
+        "right": 92,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 48,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 146,
+        "top": 218,
+        "right": 200,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 47,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 218,
+        "right": 308,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 47,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 363,
+        "top": 218,
+        "right": 417,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 47,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 472,
+        "top": 218,
+        "right": 524,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 579,
+        "top": 218,
+        "right": 633,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 47,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 689,
+        "top": 218,
+        "right": 742,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 35,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 2,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 797,
+        "top": 218,
+        "right": 850,
+        "bottom": 309
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 35,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 33,
+        "top": 320,
+        "right": 88,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 37,
+        "y": 34,
+        "w": 48,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 142,
+        "top": 320,
+        "right": 196,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 38,
+        "y": 34,
+        "w": 47,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 252,
+        "top": 320,
+        "right": 305,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 39,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 360,
+        "top": 320,
+        "right": 413,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 38,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 469,
+        "top": 320,
+        "right": 523,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 39,
+        "y": 34,
+        "w": 47,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 578,
+        "top": 320,
+        "right": 631,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 687,
+        "top": 320,
+        "right": 740,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 3,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 794,
+        "top": 320,
+        "right": 848,
+        "bottom": 412
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 39,
+        "y": 34,
+        "w": 47,
+        "h": 80
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 419,
+        "right": 90,
+        "bottom": 508
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 46,
+        "h": 77
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 145,
+        "top": 419,
+        "right": 198,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 37,
+        "w": 46,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 419,
+        "right": 307,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 46,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 363,
+        "top": 419,
+        "right": 415,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 45,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 472,
+        "top": 419,
+        "right": 524,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 580,
+        "top": 419,
+        "right": 633,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 46,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 689,
+        "top": 419,
+        "right": 742,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 46,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 4,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 796,
+        "top": 419,
+        "right": 850,
+        "bottom": 507
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 47,
+        "h": 76
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 54,
+        "top": 451,
+        "right": 176,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 35,
+        "y": 25,
+        "w": 55,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 278,
+        "top": 451,
+        "right": 397,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 25,
+        "w": 53,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 498,
+        "top": 451,
+        "right": 617,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 35,
+        "y": 25,
+        "w": 53,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 720,
+        "top": 451,
+        "right": 841,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 25,
+        "w": 54,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 945,
+        "top": 451,
+        "right": 1065,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 37,
+        "y": 25,
+        "w": 54,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1165,
+        "top": 451,
+        "right": 1282,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 25,
+        "w": 52,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1385,
+        "top": 451,
+        "right": 1507,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 35,
+        "y": 25,
+        "w": 55,
+        "h": 88
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 2,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 1609,
+        "top": 451,
+        "right": 1728,
+        "bottom": 648
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 25,
+        "w": 53,
+        "h": 88
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 0,
+      "canonicalEndpoint": "idle_right_00"
+    },
+    {
+      "action": "sit_down_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 310,
+        "top": 47,
+        "right": 401,
+        "bottom": 235
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 44,
+        "y": 27,
+        "w": 40,
+        "h": 83
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 528,
+        "top": 55,
+        "right": 620,
+        "bottom": 235
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 44,
+        "y": 30,
+        "w": 41,
+        "h": 80
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 745,
+        "top": 65,
+        "right": 837,
+        "bottom": 235
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 44,
+        "y": 35,
+        "w": 41,
+        "h": 75
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 963,
+        "top": 73,
+        "right": 1055,
+        "bottom": 235
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 41,
+        "h": 72
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1170,
+        "top": 89,
+        "right": 1264,
+        "bottom": 241
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 43,
+        "y": 45,
+        "w": 42,
+        "h": 67
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1389,
+        "top": 89,
+        "right": 1484,
+        "bottom": 241
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 43,
+        "y": 45,
+        "w": 42,
+        "h": 67
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 7,
+      "canonicalEndpoint": "seated_idle_right_00"
+    },
+    {
+      "action": "sit_down_left",
+      "index": 0,
+      "canonicalEndpoint": "idle_left_00"
+    },
+    {
+      "action": "sit_down_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 305,
+        "top": 264,
+        "right": 399,
+        "bottom": 453
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 42,
+        "y": 25,
+        "w": 42,
+        "h": 84
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 525,
+        "top": 271,
+        "right": 619,
+        "bottom": 453
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 42,
+        "y": 28,
+        "w": 42,
+        "h": 81
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 748,
+        "top": 283,
+        "right": 841,
+        "bottom": 453
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 45,
+        "y": 34,
+        "w": 41,
+        "h": 75
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 968,
+        "top": 295,
+        "right": 1062,
+        "bottom": 456
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 46,
+        "y": 39,
+        "w": 42,
+        "h": 71
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1175,
+        "top": 308,
+        "right": 1273,
+        "bottom": 462
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 46,
+        "y": 45,
+        "w": 43,
+        "h": 68
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1396,
+        "top": 308,
+        "right": 1493,
+        "bottom": 462
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 46,
+        "y": 45,
+        "w": 43,
+        "h": 68
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 7,
+      "canonicalEndpoint": "seated_idle_left_00"
+    },
+    {
+      "action": "stand_up_right",
+      "index": 0,
+      "canonicalEndpoint": "seated_idle_right_00"
+    },
+    {
+      "action": "stand_up_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 308,
+        "top": 519,
+        "right": 410,
+        "bottom": 676
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 43,
+        "y": 43,
+        "w": 45,
+        "h": 70
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 524,
+        "top": 514,
+        "right": 629,
+        "bottom": 676
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 42,
+        "y": 41,
+        "w": 47,
+        "h": 72
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 750,
+        "top": 493,
+        "right": 845,
+        "bottom": 673
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 46,
+        "y": 32,
+        "w": 42,
+        "h": 80
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 962,
+        "top": 480,
+        "right": 1055,
+        "bottom": 673
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 43,
+        "y": 26,
+        "w": 41,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1174,
+        "top": 476,
+        "right": 1266,
+        "bottom": 670
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 45,
+        "y": 24,
+        "w": 41,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1397,
+        "top": 476,
+        "right": 1490,
+        "bottom": 670
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 47,
+        "y": 24,
+        "w": 41,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 7,
+      "canonicalEndpoint": "idle_right_00"
+    },
+    {
+      "action": "stand_up_left",
+      "index": 0,
+      "canonicalEndpoint": "seated_idle_left_00"
+    },
+    {
+      "action": "stand_up_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 298,
+        "top": 724,
+        "right": 397,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 39,
+        "y": 43,
+        "w": 44,
+        "h": 69
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 516,
+        "top": 715,
+        "right": 618,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 39,
+        "y": 39,
+        "w": 45,
+        "h": 73
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 742,
+        "top": 700,
+        "right": 835,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 42,
+        "y": 32,
+        "w": 41,
+        "h": 79
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 953,
+        "top": 696,
+        "right": 1047,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 39,
+        "y": 30,
+        "w": 42,
+        "h": 81
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1177,
+        "top": 684,
+        "right": 1271,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 46,
+        "y": 25,
+        "w": 42,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1399,
+        "top": 684,
+        "right": 1492,
+        "bottom": 879
+      },
+      "scale": 0.4433497536945813,
+      "destination": {
+        "x": 48,
+        "y": 25,
+        "w": 41,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 7,
+      "canonicalEndpoint": "idle_left_00"
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1051,
+        "right": 93,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 146,
+        "top": 1051,
+        "right": 202,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 1051,
+        "right": 311,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 32,
+        "w": 49,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 363,
+        "top": 1051,
+        "right": 419,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 471,
+        "top": 1051,
+        "right": 527,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 580,
+        "top": 1051,
+        "right": 636,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 689,
+        "top": 1051,
+        "right": 743,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 32,
+        "w": 47,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 10,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 797,
+        "top": 1051,
+        "right": 852,
+        "bottom": 1145
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 32,
+        "w": 48,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 61,
+        "top": 42,
+        "right": 178,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 52,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 283,
+        "top": 42,
+        "right": 400,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 52,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 504,
+        "top": 42,
+        "right": 621,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 52,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 724,
+        "top": 42,
+        "right": 843,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 53,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 945,
+        "top": 41,
+        "right": 1065,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 37,
+        "y": 24,
+        "w": 54,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1169,
+        "top": 42,
+        "right": 1286,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 52,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1391,
+        "top": 42,
+        "right": 1509,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 53,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 0,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 1614,
+        "top": 42,
+        "right": 1730,
+        "bottom": 240
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 24,
+        "w": 52,
+        "h": 89
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 1354,
+        "right": 95,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 145,
+        "top": 1354,
+        "right": 203,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 1354,
+        "right": 312,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 363,
+        "top": 1354,
+        "right": 420,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 49,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 471,
+        "top": 1354,
+        "right": 529,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 579,
+        "top": 1354,
+        "right": 637,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 689,
+        "top": 1354,
+        "right": 745,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 42,
+        "y": 36,
+        "w": 48,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 13,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 796,
+        "top": 1354,
+        "right": 854,
+        "bottom": 1444
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 50,
+        "h": 78
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 62,
+        "top": 663,
+        "right": 177,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 23,
+        "w": 52,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 281,
+        "top": 663,
+        "right": 400,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 37,
+        "y": 23,
+        "w": 53,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 499,
+        "top": 663,
+        "right": 621,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 23,
+        "w": 55,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 726,
+        "top": 663,
+        "right": 844,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 23,
+        "w": 53,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 947,
+        "top": 663,
+        "right": 1065,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 23,
+        "w": 53,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1164,
+        "top": 663,
+        "right": 1287,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 36,
+        "y": 23,
+        "w": 55,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1390,
+        "top": 663,
+        "right": 1509,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 37,
+        "y": 23,
+        "w": 53,
+        "h": 90
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 3,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 1614,
+        "top": 663,
+        "right": 1730,
+        "bottom": 863
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 38,
+        "y": 23,
+        "w": 52,
+        "h": 90
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 1548,
+        "right": 96,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 51,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 145,
+        "top": 1549,
+        "right": 205,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 36,
+        "w": 52,
+        "h": 78
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 254,
+        "top": 1548,
+        "right": 313,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 51,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 362,
+        "top": 1548,
+        "right": 422,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 40,
+        "y": 35,
+        "w": 52,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 471,
+        "top": 1548,
+        "right": 530,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 51,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 579,
+        "top": 1548,
+        "right": 639,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 52,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 688,
+        "top": 1549,
+        "right": 747,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 36,
+        "w": 51,
+        "h": 78
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green.png",
+      "sourceRow": 15,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 796,
+        "top": 1548,
+        "right": 856,
+        "bottom": 1639
+      },
+      "scale": 0.8653846153846154,
+      "destination": {
+        "x": 41,
+        "y": 35,
+        "w": 52,
+        "h": 79
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 0,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 41,
+        "top": 251,
+        "right": 178,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 61,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 1,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 261,
+        "top": 252,
+        "right": 400,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 28,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 2,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 482,
+        "top": 251,
+        "right": 621,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 28,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 3,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 705,
+        "top": 251,
+        "right": 843,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 4,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 926,
+        "top": 251,
+        "right": 1065,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 5,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1147,
+        "top": 252,
+        "right": 1286,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 28,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 6,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1370,
+        "top": 251,
+        "right": 1509,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 28,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 7,
+      "source": "sources/seating/worker_brown_green-corrections.png",
+      "sourceRow": 1,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 1591,
+        "top": 251,
+        "right": 1730,
+        "bottom": 445
+      },
+      "scale": 0.4485981308411215,
+      "destination": {
+        "x": 28,
+        "y": 26,
+        "w": 62,
+        "h": 87
+      }
+    }
+  ]
+}

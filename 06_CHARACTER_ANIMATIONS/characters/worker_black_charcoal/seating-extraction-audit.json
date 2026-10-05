@@ -1,0 +1,2445 @@
+{
+  "referenceHeadWidth": 43,
+  "frames": [
+    {
+      "action": "seated_idle_down",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 27,
+        "right": 89,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 136,
+        "top": 27,
+        "right": 188,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 233,
+        "top": 27,
+        "right": 285,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 325,
+        "top": 27,
+        "right": 377,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 511,
+        "top": 27,
+        "right": 562,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 38,
+        "w": 44,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 605,
+        "top": 27,
+        "right": 657,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 700,
+        "top": 27,
+        "right": 752,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_down",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 0,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 796,
+        "top": 26,
+        "right": 849,
+        "bottom": 115
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 45,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 36,
+        "top": 121,
+        "right": 89,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 134,
+        "top": 121,
+        "right": 187,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 233,
+        "top": 121,
+        "right": 285,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 324,
+        "top": 121,
+        "right": 377,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 511,
+        "top": 121,
+        "right": 562,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 38,
+        "w": 44,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 606,
+        "top": 121,
+        "right": 657,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 44,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 701,
+        "top": 121,
+        "right": 753,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_up",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 1,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 798,
+        "top": 121,
+        "right": 850,
+        "bottom": 209
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 38,
+        "w": 45,
+        "h": 75
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 36,
+        "top": 216,
+        "right": 86,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 43,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 133,
+        "top": 216,
+        "right": 185,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 231,
+        "top": 216,
+        "right": 282,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 44,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 323,
+        "top": 216,
+        "right": 374,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 44,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 509,
+        "top": 216,
+        "right": 559,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 43,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 604,
+        "top": 216,
+        "right": 655,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 44,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 699,
+        "top": 216,
+        "right": 749,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 43,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_right",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 2,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 796,
+        "top": 216,
+        "right": 847,
+        "bottom": 305
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 44,
+        "h": 76
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 37,
+        "top": 311,
+        "right": 89,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 34,
+        "w": 45,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 135,
+        "top": 312,
+        "right": 187,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 233,
+        "top": 311,
+        "right": 285,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 34,
+        "w": 45,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 325,
+        "top": 312,
+        "right": 377,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 511,
+        "top": 311,
+        "right": 563,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 34,
+        "w": 45,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 606,
+        "top": 312,
+        "right": 658,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 701,
+        "top": 312,
+        "right": 753,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_idle_left",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 3,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 798,
+        "top": 312,
+        "right": 850,
+        "bottom": 404
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 35,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 36,
+        "top": 416,
+        "right": 90,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 35,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 133,
+        "top": 417,
+        "right": 187,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 36,
+        "w": 46,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 230,
+        "top": 417,
+        "right": 283,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 322,
+        "top": 417,
+        "right": 376,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 36,
+        "w": 46,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 510,
+        "top": 417,
+        "right": 563,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 605,
+        "top": 417,
+        "right": 658,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 700,
+        "top": 417,
+        "right": 753,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_down",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 4,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 796,
+        "top": 417,
+        "right": 850,
+        "bottom": 508
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 36,
+        "w": 46,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 36,
+        "top": 512,
+        "right": 89,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 133,
+        "top": 512,
+        "right": 185,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 227,
+        "top": 512,
+        "right": 280,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 39,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 321,
+        "top": 512,
+        "right": 374,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 37,
+        "w": 45,
+        "h": 77
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 511,
+        "top": 511,
+        "right": 564,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 606,
+        "top": 511,
+        "right": 658,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 701,
+        "top": 511,
+        "right": 753,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "work_up",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 5,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 796,
+        "top": 511,
+        "right": 849,
+        "bottom": 602
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 36,
+        "w": 45,
+        "h": 78
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 0,
+      "canonicalEndpoint": "idle_right_00"
+    },
+    {
+      "action": "sit_down_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 298,
+        "top": 48,
+        "right": 382,
+        "bottom": 229
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 17,
+        "w": 39,
+        "h": 83
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 520,
+        "top": 65,
+        "right": 605,
+        "bottom": 232
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 25,
+        "w": 39,
+        "h": 77
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 744,
+        "top": 81,
+        "right": 830,
+        "bottom": 243
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 44,
+        "y": 32,
+        "w": 39,
+        "h": 74
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 966,
+        "top": 90,
+        "right": 1050,
+        "bottom": 252
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 36,
+        "w": 39,
+        "h": 74
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1186,
+        "top": 100,
+        "right": 1270,
+        "bottom": 256
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 41,
+        "w": 39,
+        "h": 72
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 0,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1408,
+        "top": 103,
+        "right": 1492,
+        "bottom": 257
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 42,
+        "w": 39,
+        "h": 71
+      }
+    },
+    {
+      "action": "sit_down_right",
+      "index": 7,
+      "canonicalEndpoint": "seated_idle_right_00"
+    },
+    {
+      "action": "sit_down_left",
+      "index": 0,
+      "canonicalEndpoint": "idle_left_00"
+    },
+    {
+      "action": "sit_down_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 286,
+        "top": 261,
+        "right": 371,
+        "bottom": 438
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 39,
+        "h": 81
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 508,
+        "top": 277,
+        "right": 593,
+        "bottom": 442
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 39,
+        "y": 26,
+        "w": 39,
+        "h": 76
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 729,
+        "top": 292,
+        "right": 814,
+        "bottom": 452
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 38,
+        "y": 33,
+        "w": 39,
+        "h": 73
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 948,
+        "top": 302,
+        "right": 1032,
+        "bottom": 461
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 37,
+        "y": 38,
+        "w": 39,
+        "h": 73
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1169,
+        "top": 313,
+        "right": 1254,
+        "bottom": 466
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 37,
+        "y": 43,
+        "w": 39,
+        "h": 70
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 1,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1392,
+        "top": 313,
+        "right": 1476,
+        "bottom": 466
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 38,
+        "y": 43,
+        "w": 39,
+        "h": 70
+      }
+    },
+    {
+      "action": "sit_down_left",
+      "index": 7,
+      "canonicalEndpoint": "seated_idle_left_00"
+    },
+    {
+      "action": "stand_up_right",
+      "index": 0,
+      "canonicalEndpoint": "seated_idle_right_00"
+    },
+    {
+      "action": "stand_up_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 300,
+        "top": 536,
+        "right": 409,
+        "bottom": 686
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 46,
+        "y": 40,
+        "w": 50,
+        "h": 69
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 521,
+        "top": 525,
+        "right": 628,
+        "bottom": 679
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 35,
+        "w": 49,
+        "h": 71
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 746,
+        "top": 509,
+        "right": 850,
+        "bottom": 679
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 45,
+        "y": 28,
+        "w": 48,
+        "h": 78
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 968,
+        "top": 492,
+        "right": 1061,
+        "bottom": 673
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 46,
+        "y": 20,
+        "w": 43,
+        "h": 83
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1180,
+        "top": 486,
+        "right": 1266,
+        "bottom": 673
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 42,
+        "y": 17,
+        "w": 39,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 2,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1400,
+        "top": 482,
+        "right": 1484,
+        "bottom": 673
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 41,
+        "y": 16,
+        "w": 39,
+        "h": 88
+      }
+    },
+    {
+      "action": "stand_up_right",
+      "index": 7,
+      "canonicalEndpoint": "idle_right_00"
+    },
+    {
+      "action": "stand_up_left",
+      "index": 0,
+      "canonicalEndpoint": "seated_idle_left_00"
+    },
+    {
+      "action": "stand_up_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 280,
+        "top": 728,
+        "right": 387,
+        "bottom": 874
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 37,
+        "y": 44,
+        "w": 49,
+        "h": 67
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 506,
+        "top": 716,
+        "right": 607,
+        "bottom": 871
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 38,
+        "y": 38,
+        "w": 46,
+        "h": 71
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 725,
+        "top": 702,
+        "right": 821,
+        "bottom": 871
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 36,
+        "y": 32,
+        "w": 44,
+        "h": 78
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 4,
+      "sourceBounds": {
+        "left": 947,
+        "top": 696,
+        "right": 1036,
+        "bottom": 871
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 36,
+        "y": 29,
+        "w": 41,
+        "h": 80
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 1180,
+        "top": 685,
+        "right": 1265,
+        "bottom": 871
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 42,
+        "y": 24,
+        "w": 39,
+        "h": 85
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal-transitions.png",
+      "sourceRow": 3,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 1400,
+        "top": 683,
+        "right": 1484,
+        "bottom": 871
+      },
+      "scale": 0.45918367346938777,
+      "destination": {
+        "x": 41,
+        "y": 23,
+        "w": 39,
+        "h": 86
+      }
+    },
+    {
+      "action": "stand_up_left",
+      "index": 7,
+      "canonicalEndpoint": "idle_left_00"
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1071,
+        "right": 91,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 31,
+        "w": 45,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 132,
+        "top": 1071,
+        "right": 186,
+        "bottom": 1167
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 31,
+        "w": 46,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 226,
+        "top": 1071,
+        "right": 281,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 38,
+        "y": 31,
+        "w": 47,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 320,
+        "top": 1071,
+        "right": 375,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 31,
+        "w": 47,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 509,
+        "top": 1071,
+        "right": 563,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 46,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 604,
+        "top": 1071,
+        "right": 658,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 46,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 698,
+        "top": 1071,
+        "right": 751,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 31,
+        "w": 45,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_right",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 10,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 794,
+        "top": 1071,
+        "right": 848,
+        "bottom": 1166
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 31,
+        "w": 46,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1175,
+        "right": 92,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 31,
+        "w": 46,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 134,
+        "top": 1175,
+        "right": 188,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 46,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 230,
+        "top": 1175,
+        "right": 284,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 31,
+        "w": 46,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 324,
+        "top": 1176,
+        "right": 378,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 32,
+        "w": 46,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 512,
+        "top": 1176,
+        "right": 566,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 46,
+        "y": 32,
+        "w": 46,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 607,
+        "top": 1176,
+        "right": 660,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 32,
+        "w": 45,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 704,
+        "top": 1176,
+        "right": 755,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 47,
+        "y": 32,
+        "w": 44,
+        "h": 81
+      }
+    },
+    {
+      "action": "seated_coffee_left",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 11,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 797,
+        "top": 1175,
+        "right": 850,
+        "bottom": 1271
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 45,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1285,
+        "right": 91,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 34,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 134,
+        "top": 1285,
+        "right": 187,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 34,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 230,
+        "top": 1285,
+        "right": 283,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 34,
+        "w": 45,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 323,
+        "top": 1285,
+        "right": 377,
+        "bottom": 1378
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 510,
+        "top": 1285,
+        "right": 564,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 34,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 605,
+        "top": 1285,
+        "right": 659,
+        "bottom": 1378
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 34,
+        "w": 46,
+        "h": 80
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 700,
+        "top": 1285,
+        "right": 754,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 44,
+        "y": 34,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_right",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 12,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 795,
+        "top": 1285,
+        "right": 849,
+        "bottom": 1377
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 34,
+        "w": 46,
+        "h": 79
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 39,
+        "top": 1391,
+        "right": 92,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 46,
+        "y": 31,
+        "w": 45,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 134,
+        "top": 1391,
+        "right": 186,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 45,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 227,
+        "top": 1391,
+        "right": 282,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 39,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 320,
+        "top": 1391,
+        "right": 375,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 507,
+        "top": 1391,
+        "right": 562,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 602,
+        "top": 1391,
+        "right": 657,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 696,
+        "top": 1391,
+        "right": 751,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "seated_talk_left",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 13,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 792,
+        "top": 1391,
+        "right": 847,
+        "bottom": 1487
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 39,
+        "y": 31,
+        "w": 47,
+        "h": 82
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1505,
+        "right": 97,
+        "bottom": 1603
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 29,
+        "w": 51,
+        "h": 84
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 133,
+        "top": 1505,
+        "right": 192,
+        "bottom": 1603
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 29,
+        "w": 51,
+        "h": 84
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 229,
+        "top": 1505,
+        "right": 287,
+        "bottom": 1603
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 29,
+        "w": 50,
+        "h": 84
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 321,
+        "top": 1505,
+        "right": 379,
+        "bottom": 1604
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 29,
+        "w": 50,
+        "h": 85
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 509,
+        "top": 1507,
+        "right": 568,
+        "bottom": 1604
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 51,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 604,
+        "top": 1507,
+        "right": 662,
+        "bottom": 1604
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 43,
+        "y": 31,
+        "w": 50,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 698,
+        "top": 1507,
+        "right": 758,
+        "bottom": 1604
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 42,
+        "y": 31,
+        "w": 51,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_right",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 14,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 793,
+        "top": 1507,
+        "right": 852,
+        "bottom": 1604
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 31,
+        "w": 51,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 0,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 0,
+      "sourceBounds": {
+        "left": 38,
+        "top": 1624,
+        "right": 98,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 45,
+        "y": 30,
+        "w": 51,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 1,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 1,
+      "sourceBounds": {
+        "left": 130,
+        "top": 1622,
+        "right": 191,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 28,
+        "w": 52,
+        "h": 85
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 2,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 2,
+      "sourceBounds": {
+        "left": 225,
+        "top": 1622,
+        "right": 286,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 37,
+        "y": 28,
+        "w": 52,
+        "h": 85
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 3,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 3,
+      "sourceBounds": {
+        "left": 318,
+        "top": 1625,
+        "right": 378,
+        "bottom": 1722
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 38,
+        "y": 31,
+        "w": 51,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 4,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 5,
+      "sourceBounds": {
+        "left": 507,
+        "top": 1626,
+        "right": 567,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 41,
+        "y": 31,
+        "w": 51,
+        "h": 81
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 5,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 6,
+      "sourceBounds": {
+        "left": 601,
+        "top": 1626,
+        "right": 662,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 31,
+        "w": 52,
+        "h": 81
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 6,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 7,
+      "sourceBounds": {
+        "left": 696,
+        "top": 1624,
+        "right": 757,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 40,
+        "y": 30,
+        "w": 52,
+        "h": 83
+      }
+    },
+    {
+      "action": "lounge_left",
+      "index": 7,
+      "source": "sources/seating/worker_black_charcoal.png",
+      "sourceRow": 15,
+      "sourceColumn": 8,
+      "sourceBounds": {
+        "left": 791,
+        "top": 1625,
+        "right": 852,
+        "bottom": 1721
+      },
+      "scale": 0.8571428571428571,
+      "destination": {
+        "x": 38,
+        "y": 31,
+        "w": 52,
+        "h": 82
+      }
+    }
+  ]
+}

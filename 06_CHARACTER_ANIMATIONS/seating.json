@@ -1,0 +1,257 @@
+{
+  "version": "3.0.0",
+  "units": "scene pixels",
+  "frameSize": {
+    "w": 128,
+    "h": 128
+  },
+  "anchors": {
+    "feet": {
+      "x": 64,
+      "y": 112
+    },
+    "seat": {
+      "x": 64,
+      "y": 94,
+      "meaning": "Suggested pelvis attachment; calibrate per character/furniture combination before shipping."
+    }
+  },
+  "transitions": {
+    "right": {
+      "enter": "sit_down_right",
+      "idle": "seated_idle_right",
+      "exit": "stand_up_right",
+      "standing": "idle_right"
+    },
+    "left": {
+      "enter": "sit_down_left",
+      "idle": "seated_idle_left",
+      "exit": "stand_up_left",
+      "standing": "idle_left"
+    },
+    "up": {
+      "idle": "seated_idle_up",
+      "work": "work_up",
+      "enter": null,
+      "exit": null
+    },
+    "down": {
+      "idle": "seated_idle_down",
+      "work": "work_down",
+      "enter": null,
+      "exit": null
+    }
+  },
+  "lifecycle": [
+    "reserve_seat",
+    "approach",
+    "align_at_entry",
+    "sit_down",
+    "seated_idle",
+    "seated_activity",
+    "stand_up",
+    "release_seat",
+    "depart"
+  ],
+  "rules": {
+    "occupancy": "Reserve a seat before approaching. Keep it reserved during all seated actions. Release only on seat_released, at the final stand-up frame.",
+    "movement": "Disable world locomotion while seated or transitioning. Interruption requests first finish standing up, then resume movement.",
+    "completion": "Use each clip's completionAction. One-shot seated coffee returns to seated_idle in the same direction.",
+    "frontBackTransitions": "Only lateral sit/stand transitions are drawn. For up/down stations, add a brief turn to a lateral facing, play the lateral transition, then switch to the requested seated facing; reverse that order on departure. Do not invent unprovided front/back transition frames.",
+    "anchors": "Foot pivot is common for all frames. Suggested seat anchor is not anatomical ground truth: calibrate and store offset once for each actor and seat type.",
+    "layers": "Place chair back and sofa backrest behind the character. Desk front, monitor and armrest occluders may render in front. Monolithic furniture assets need masking or split layers if they occlude the actor incorrectly.",
+    "equipment": "Hands in work clips are drawn; desk, keyboard, monitor and chair remain external props.",
+    "compatibility": "Old frame names and the first 16 atlas rows are unchanged. Atlas dimensions expanded to 1024x4096."
+  },
+  "furniture": [
+    {
+      "id": "07_office_chair_teal",
+      "role": "office_chair",
+      "image": "furniture/07_office_chair_teal.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/07_office_chair_teal.png"
+    },
+    {
+      "id": "15_conference_chair_teal",
+      "role": "meeting_chair",
+      "image": "furniture/15_conference_chair_teal.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/15_conference_chair_teal.png"
+    },
+    {
+      "id": "18_manager_chair_teal",
+      "role": "manager_chair",
+      "image": "furniture/18_manager_chair_teal.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/18_manager_chair_teal.png"
+    },
+    {
+      "id": "23_sofa_blue",
+      "role": "sofa",
+      "image": "furniture/23_sofa_blue.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/23_sofa_blue.png"
+    },
+    {
+      "id": "24_lounge_armchair_teal",
+      "role": "lounge_armchair",
+      "image": "furniture/24_lounge_armchair_teal.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/24_lounge_armchair_teal.png"
+    },
+    {
+      "id": "01_workstation_desk_L_empty",
+      "role": "desk",
+      "image": "furniture/01_workstation_desk_L_empty.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/01_workstation_desk_L_empty.png"
+    },
+    {
+      "id": "02_conference_table_empty",
+      "role": "meeting_table",
+      "image": "furniture/02_conference_table_empty.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/02_conference_table_empty.png"
+    },
+    {
+      "id": "03_manager_desk_empty",
+      "role": "manager_desk",
+      "image": "furniture/03_manager_desk_empty.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/03_manager_desk_empty.png"
+    },
+    {
+      "id": "04_coffee_table_empty",
+      "role": "coffee_table",
+      "image": "furniture/04_coffee_table_empty.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/04_coffee_table_empty.png"
+    },
+    {
+      "id": "08_computer_monitor_black",
+      "role": "monitor",
+      "image": "furniture/08_computer_monitor_black.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/08_computer_monitor_black.png"
+    },
+    {
+      "id": "09_keyboard_black",
+      "role": "keyboard",
+      "image": "furniture/09_keyboard_black.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/09_keyboard_black.png"
+    },
+    {
+      "id": "10_mouse_black",
+      "role": "mouse",
+      "image": "furniture/10_mouse_black.png",
+      "source": "03_INDIVIDUAL_TRANSPARENT_ASSETS/01_SCENE_SCALE_PNG/10_mouse_black.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "workstation",
+      "label": "Рабочее место",
+      "furniture": [
+        "01_workstation_desk_L_empty",
+        "07_office_chair_teal",
+        "08_computer_monitor_black",
+        "09_keyboard_black",
+        "10_mouse_black"
+      ],
+      "characterDirections": [
+        "down",
+        "up",
+        "right",
+        "left"
+      ],
+      "actions": [
+        "seated_idle_{direction}",
+        "work_{direction}",
+        "seated_coffee_right",
+        "seated_coffee_left",
+        "seated_talk_right",
+        "seated_talk_left"
+      ]
+    },
+    {
+      "id": "manager_desk",
+      "label": "Кабинет",
+      "furniture": [
+        "03_manager_desk_empty",
+        "18_manager_chair_teal",
+        "08_computer_monitor_black",
+        "09_keyboard_black"
+      ],
+      "characterDirections": [
+        "down",
+        "up",
+        "right",
+        "left"
+      ],
+      "actions": [
+        "seated_idle_{direction}",
+        "work_{direction}",
+        "seated_talk_right",
+        "seated_talk_left",
+        "seated_coffee_right",
+        "seated_coffee_left"
+      ]
+    },
+    {
+      "id": "meeting_room",
+      "label": "Переговорная",
+      "furniture": [
+        "02_conference_table_empty",
+        "15_conference_chair_teal"
+      ],
+      "characterDirections": [
+        "down",
+        "up",
+        "right",
+        "left"
+      ],
+      "actions": [
+        "seated_idle_{direction}",
+        "seated_talk_right",
+        "seated_talk_left",
+        "seated_coffee_right",
+        "seated_coffee_left"
+      ]
+    },
+    {
+      "id": "lounge_sofa",
+      "label": "Диван в зоне отдыха",
+      "furniture": [
+        "23_sofa_blue",
+        "04_coffee_table_empty"
+      ],
+      "characterDirections": [
+        "right",
+        "left"
+      ],
+      "actions": [
+        "lounge_right",
+        "lounge_left",
+        "seated_idle_right",
+        "seated_idle_left",
+        "seated_coffee_right",
+        "seated_coffee_left",
+        "seated_talk_right",
+        "seated_talk_left"
+      ]
+    },
+    {
+      "id": "lounge_armchair",
+      "label": "Кресло в зоне отдыха",
+      "furniture": [
+        "24_lounge_armchair_teal",
+        "04_coffee_table_empty"
+      ],
+      "characterDirections": [
+        "right",
+        "left"
+      ],
+      "actions": [
+        "lounge_right",
+        "lounge_left",
+        "seated_idle_right",
+        "seated_idle_left",
+        "seated_coffee_right",
+        "seated_coffee_left",
+        "seated_talk_right",
+        "seated_talk_left"
+      ]
+    }
+  ],
+  "locationNote": "Locations are reusable integration recipes, not actual placed stations. Character directions must match the available furniture artwork. Calibrate furniture positions and occlusion in the target scene."
+}
