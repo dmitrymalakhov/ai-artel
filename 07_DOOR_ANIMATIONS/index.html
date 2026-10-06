@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Artel · двери и проход</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#171a22;color:#e9e1d1;font:15px/1.5 system-ui,sans-serif}main{max-width:1390px;margin:auto;padding:28px}header{display:flex;gap:24px;justify-content:space-between;align-items:center;margin-bottom:22px}h1{font-size:26px;margin:0}p{color:#adb8bb;margin:8px 0}button{border:1px solid #586667;background:#2d3d3d;color:#f3e4c9;border-radius:5px;padding:10px 14px;cursor:pointer;font:inherit}button:hover,button[aria-pressed=true]{background:#4c625c}button:focus-visible{outline:2px solid #e0ba73;outline-offset:3px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:24px}#scene{width:100%;height:auto;display:block;image-rendering:pixelated;background:#151522}.detail{margin-bottom:26px;border-bottom:1px solid #3f4b4b;padding-bottom:22px}.detail h2{font-size:17px;margin:0 0 10px}.detail canvas{width:100%;height:auto;image-rendering:pixelated;display:block;margin-bottom:12px}.buttons{display:flex;flex-wrap:wrap;gap:7px}.status{color:#d8bc80;font-size:13px;margin:10px 0}footer{color:#aab2af;font-size:13px;margin-top:22px}a{color:#d8bc80}@media(max-width:850px){main{padding:16px}header{display:block}.layout{grid-template-columns:1fr}aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}}@media(max-width:500px){aside{grid-template-columns:1fr}h1{font-size:23px}}
+</style>
+<main><header><div><h1>Двери офиса · открытие и проход</h1><p>Кабинет руководителя и переговорная. Персонажи ждут открытия, проходят и освобождают проём.</p></div><button id="pause">Пауза</button></header>
+<div class="layout"><canvas id="scene" width="1254" height="1254" aria-label="Офис с анимированными дверями"></canvas><aside id="details"></aside></div>
+<footer>Восемь поз на дверь · открытие и закрытие · просмотр работает без сервера. <a href="README_RU.md">Состав набора</a> · <a href="AGENT_HANDOFF.md">Инструкция для внедрения</a></footer></main>
+<script src="preview-data.js"></script><script>
+const pack=window.DOOR_PACK, scene=document.querySelector('#scene'),ctx=scene.getContext('2d');
+const loadedImage=src=>new Promise((resolve,reject)=>{const i=new Image;i.onload=()=>resolve(i);i.onerror=reject;i.src=src});
+const labels={closed:'Закрыта',opening:'Открывается',open:'Открыта',closing:'Закрывается'};
+let models=[],paused=false,gameTime=0,lastTime=0,ready=false;
+function moveTo(model,side){
+  if(model.actor.phase!=='waiting')return;
+  model.actor.destination=side;model.controller.request(model.actor.id,model.actor.side);
+  model.actor.phase='requested';model.controller.setNearby(model.actor.id,true);
+}
+function update(delta){
+  gameTime+=delta;
+  for(const m of models){
+    const a=m.actor;
+    m.controller.tick(delta);
+    if(a.phase==='requested'&&m.controller.active?.actorId===a.id){a.phase='crossing';a.start={x:a.x,y:a.y};a.travelTime=0;}
+    if(a.phase==='crossing'){
+      a.travelTime+=delta;const p=Math.min(1,a.travelTime/2100),end=m.config.waypoints[a.destination];
+      a.x=a.start.x+(end.x-a.start.x)*p;a.y=a.start.y+(end.y-a.start.y)*p;
+      if(p===1){a.side=a.destination;a.phase='waiting';a.restUntil=gameTime+2800;m.controller.setNearby(a.id,false);m.controller.release(a.id);}
+    }else if(a.phase==='waiting'&&m.auto&&gameTime>=a.restUntil)moveTo(m,a.side==='corridor'?'room':'corridor');
+    m.status.textContent=labels[m.controller.state]+' · кадр '+(m.controller.frameIndex+1)+'/8 · '+(a.phase==='crossing'?'идёт':a.phase==='requested'?'ожидает открытия':a.side==='room'?'в комнате':'в коридоре');
+  }
+}
+function drawActor(m){const a=m.actor,up=(a.phase==='crossing'||a.phase==='requested')?a.destination==='room':a.side==='room',action=(a.phase==='crossing'?'walk_':'idle_')+(up?'up':'down'),i=Math.floor(gameTime/(a.phase==='crossing'?110:240))%8,scale=.65;ctx.drawImage(m.characters[action][i],Math.round(a.x-64*scale),Math.round(a.y-112*scale),Math.round(128*scale),Math.round(128*scale));}
+function render(){
+  if(!ready)return;ctx.imageSmoothingEnabled=false;ctx.drawImage(pack.backgroundImage,0,0);
+  for(const m of models){if(m.actor.y<m.config.depthY)drawActor(m);ctx.drawImage(m.frames[m.controller.frameIndex],m.config.scenePosition.x,m.config.scenePosition.y);if(m.actor.y>=m.config.depthY)drawActor(m);ctx.drawImage(m.foreground,m.config.scenePosition.x,m.config.scenePosition.y);}
+  for(const m of models){const d=m.detail.getContext('2d');d.imageSmoothingEnabled=false;const crop=m.config.id==='manager_office'?{x:343,y:287,w:188,h:196}:{x:703,y:436,w:310,h:210};d.clearRect(0,0,m.detail.width,m.detail.height);d.drawImage(scene,crop.x,crop.y,crop.w,crop.h,0,0,m.detail.width,m.detail.height);}
+}
+window.DOOR_DEMO={get models(){return models},advance(ms){update(ms);render()},get ready(){return ready},setPaused(value){paused=value;document.querySelector('#pause').textContent=paused?'Продолжить':'Пауза'},render};
+document.querySelector('#pause').onclick=()=>window.DOOR_DEMO.setPaused(!paused);
+(async()=>{
+  pack.backgroundImage=await loadedImage(pack.background);
+  for(let i=0;i<pack.manifest.doors.length;i++){
+    const c=pack.manifest.doors[i],data=pack.doors[c.id],id=i===0?'manager_navy':'worker_orange_yellow';
+    const section=document.createElement('section');section.className='detail';section.innerHTML='<h2>'+c.name+'</h2><canvas width="620" height="420" aria-label="'+c.name+' крупно"></canvas><div class="buttons"><button data-action="pass">Пройти</button><button data-action="auto" aria-pressed="true">Автопроход</button></div><div class="status"></div>';
+    document.querySelector('#details').append(section);
+    const characters={};for(const [action,frames]of Object.entries(pack.characters[id]))characters[action]=await Promise.all(frames.map(loadedImage));
+    const m={config:c,frames:await Promise.all(data.frames.map(loadedImage)),foreground:await loadedImage(data.foreground),characters,controller:new DoorController(c),actor:{id,side:'corridor',phase:'waiting',...c.waypoints.corridor,restUntil:800+i*700},auto:true,detail:section.querySelector('canvas'),status:section.querySelector('.status')};
+    if(i===0){m.detail.width=376;m.detail.height=392;}
+    section.querySelector('[data-action=pass]').onclick=()=>moveTo(m,m.actor.side==='corridor'?'room':'corridor');section.querySelector('[data-action=auto]').onclick=e=>{m.auto=!m.auto;e.target.setAttribute('aria-pressed',m.auto);};models.push(m);
+  }
+  ready=true;render();requestAnimationFrame(function animate(now){const delta=lastTime?Math.min(100,now-lastTime):0;lastTime=now;if(!paused)update(delta);render();requestAnimationFrame(animate);});
+})().catch(e=>{document.querySelector('footer').textContent='Не удалось загрузить просмотр: '+e.message;throw e;});
+</script></html>

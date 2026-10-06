@@ -1,0 +1,290 @@
+{
+  "backgroundPatches": [
+    {
+      "left": 400,
+      "top": 318,
+      "width": 75,
+      "height": 108
+    },
+    {
+      "left": 789,
+      "top": 477,
+      "width": 135,
+      "height": 110
+    }
+  ],
+  "frames": [
+    {
+      "door": "manager_office",
+      "frame": 0,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 127,
+        "top": 95,
+        "width": 193,
+        "height": 280
+      },
+      "destination": {
+        "x": 38,
+        "y": 48,
+        "w": 54,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 1,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 591,
+        "top": 79,
+        "width": 172,
+        "height": 307
+      },
+      "destination": {
+        "x": 44,
+        "y": 48,
+        "w": 48,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 2,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 1059,
+        "top": 67,
+        "width": 147,
+        "height": 328
+      },
+      "destination": {
+        "x": 51,
+        "y": 48,
+        "w": 41,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 3,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 1517,
+        "top": 61,
+        "width": 131,
+        "height": 334
+      },
+      "destination": {
+        "x": 55,
+        "y": 48,
+        "w": 37,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 4,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 211,
+        "top": 491,
+        "width": 109,
+        "height": 348
+      },
+      "destination": {
+        "x": 62,
+        "y": 48,
+        "w": 30,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 5,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 681,
+        "top": 490,
+        "width": 82,
+        "height": 349
+      },
+      "destination": {
+        "x": 69,
+        "y": 48,
+        "w": 23,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 6,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 1144,
+        "top": 490,
+        "width": 62,
+        "height": 349
+      },
+      "destination": {
+        "x": 75,
+        "y": 48,
+        "w": 17,
+        "h": 88
+      }
+    },
+    {
+      "door": "manager_office",
+      "frame": 7,
+      "source": "manager-opening.png",
+      "sourceBounds": {
+        "left": 1597,
+        "top": 491,
+        "width": 51,
+        "height": 348
+      },
+      "destination": {
+        "x": 78,
+        "y": 48,
+        "w": 14,
+        "h": 88
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 0,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 113,
+        "top": 143,
+        "width": 219,
+        "height": 219
+      },
+      "destination": {
+        "x": 61,
+        "y": 62,
+        "w": 134,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 1,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 547,
+        "top": 143,
+        "width": 235,
+        "height": 219
+      },
+      "destination": {
+        "x": 56,
+        "y": 62,
+        "w": 144,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 2,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 971,
+        "top": 143,
+        "width": 275,
+        "height": 219
+      },
+      "destination": {
+        "x": 44,
+        "y": 62,
+        "w": 168,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 3,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 1387,
+        "top": 143,
+        "width": 329,
+        "height": 219
+      },
+      "destination": {
+        "x": 28,
+        "y": 62,
+        "w": 201,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 4,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 57,
+        "top": 572,
+        "width": 331,
+        "height": 217
+      },
+      "destination": {
+        "x": 27,
+        "y": 62,
+        "w": 203,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 5,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 482,
+        "top": 572,
+        "width": 370,
+        "height": 217
+      },
+      "destination": {
+        "x": 15,
+        "y": 62,
+        "w": 226,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 6,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 918,
+        "top": 572,
+        "width": 385,
+        "height": 217
+      },
+      "destination": {
+        "x": 10,
+        "y": 62,
+        "w": 236,
+        "h": 106
+      }
+    },
+    {
+      "door": "meeting_room",
+      "frame": 7,
+      "source": "meeting-opening.png",
+      "sourceBounds": {
+        "left": 1352,
+        "top": 572,
+        "width": 399,
+        "height": 217
+      },
+      "destination": {
+        "x": 6,
+        "y": 62,
+        "w": 244,
+        "h": 106
+      }
+    }
+  ]
+}

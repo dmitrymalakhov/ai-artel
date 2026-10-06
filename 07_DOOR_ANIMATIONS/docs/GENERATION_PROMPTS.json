@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "open-background",
+      "args": {
+        "referenced_image_paths": [
+          "/Users/dmitrii.malakhov/git/ai-artel/02_ANIMATION/character_free_restoration_plate.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Use case: precise-object-edit. Edit target is this exact 1254x1254 pixel-art corporate office floor scene. Create the same scene with ONLY the two requested interior door openings cleared of their movable door leaves. First: wooden manager office door at x400..474 y319..425: remove the brown wooden leaf inside the jamb, retain its cream/brown stationary side jambs, restore a walkable warm wooden floor visible through the empty doorway matching both room and corridor. Second: meeting-room paired glass doors at x780..929 y462..591: remove the two movable glass leaves AND central movable meeting stile, retain left and right static jambs and the stationary top rail; create an uninterrupted walkable doorway spanning x793..913 with teal meeting room carpet in its upper half and brown corridor floor in lower half, a low flat threshold only. Keep all other glass walls, furniture, chairs, floor, dashboards, perimeter, colors, pixel scale, perspective, lighting and framing absolutely unchanged. No new objects, people, text. The room entrances must look physically clear and accessible to characters. Keep full image square, do not crop or resize. This output is the static background behind animated door layers, so NO opened leaves protruding into doorways."
+      }
+    },
+    {
+      "id": "manager-opening",
+      "args": {
+        "referenced_image_paths": [
+          "/Users/dmitrii.malakhov/git/ai-artel/07_DOOR_ANIMATIONS/sources/manager-reference.png"
+        ],
+        "transparent_background": true,
+        "prompt": "Use case: precise-object-edit. Reference: crop of the EXISTING warm brown manager-office wooden door in a pixel-art office. Create a production transparent sprite sheet of ONLY THE MOVABLE WOODEN DOOR LEAF opening on its RIGHT hinge, no jamb, no wall, no floor. EXACT layout 4 columns x 2 rows, 8 equally sized square cells, row-major time order. Every cell uses same scale, fixed RIGHT HINGE x=75% of cell width, hinge bottom y=80% of cell height, enough transparent padding. Door texture warm golden brown inset rectangular panel, dark brown chunky pixel outline, silver handle on left edge; match reference palette, chunky crisp pixel art and front/top-down slight perspective exactly. Door closed leaf width about 45% cell width height60% cell height. Frame0 fully closed facing viewer. Frames1..6 door swings gradually INTO OFFICE: visible width monotonically shrinks as left handle edge recedes UP toward the hinge; strong perspective foreshortening. Frame7 fully open at90degrees: thin right-hinge edge-on leaf vertical, occupying less than 8% cell width, leaving the doorway wholly empty to left. Keep hinge position absolutely fixed in all eight frames. Eight DIFFERENT chronological poses, no repeated closure, no extra rows/columns, no labels. True transparent alpha background, no painted checkerboard, no shadows or other furniture. At all frames door itself stays visible; NEVER render the stationary door frame."
+      }
+    },
+    {
+      "id": "meeting-opening",
+      "args": {
+        "referenced_image_paths": [
+          "/Users/dmitrii.malakhov/git/ai-artel/07_DOOR_ANIMATIONS/sources/meeting-reference.png"
+        ],
+        "transparent_background": true,
+        "prompt": "Use case: precise-object-edit. Reference: EXISTING paired glass meeting-room doors in pixel-art office. Create transparent animation sprite sheet showing ONLY the TWO MOVABLE GLASS LEAVES as a pair sliding apart horizontally. EXACT 4 columns x2 rows, eight equal square cells chronological row-major. NO stationary top rail, no outer wall, no floor, no stationary central mullion. Match teal translucent glass, cream/slate metal outlines, little silver handles close to CENTER seam, diagonal blue glass reflections, crisp chunky office pixel art of reference. Identical two leaf sizes and silhouettes across frames, each leaf height50% cell height and width22% cell width. Fixed baseline y=80% cell height. Frame0 pair closed together at middle of cell, handles near central seam. Frames1..6 left leaf progressively slides LEFT and right leaf RIGHT, gap monotonically increases. Frame7 fully open with both leaves retracted to opposite edges, central gap about42% cell width. Leaves remain same size throughout, no rotations or hinge swing. Max width of open pair90% cellwidth; sufficient transparent padding so leaves never touch neighboring cell. True transparent alpha background, no checkerboard texture. Eight distinct poses, no labels, no extra objects. This is a movable foreground layer that will sit over a static clean doorway opening."
+      }
+    }
+  ]
+}
