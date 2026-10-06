@@ -1,0 +1,69 @@
+{
+  "frameCount": 1239,
+  "clipCount": 350,
+  "characters": [
+    {
+      "id": "manager_navy",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_orange_yellow",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_dark_purple",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_brown_green",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_black_charcoal",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_blond_blue",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    },
+    {
+      "id": "worker_brown_red",
+      "frames": 177,
+      "clips": 50,
+      "distinctFurniturePoses": true
+    }
+  ],
+  "checks": [
+    "RGBA transparency and safe margins",
+    "All frame/atlas references, pixel-exact atlas tiles and timings",
+    "Nonstatic clips",
+    "Different sofa and armchair body poses",
+    "Exact sit/drink/talk/laugh/win canonical endpoint packing",
+    "Original left/right standing pose preserved in 160px cell",
+    "Per-frame mirror overrides",
+    "Seat exclusivity and posture gate before gaming",
+    "One console and at most two allocated controllers",
+    "Storage mutex, event idempotency and recovery on removal",
+    "Single-owner atomic parcel exchange",
+    "Offline preview, all50 actions, other character pair and mobile",
+    "Complete retrieve/install/play/return demo lifecycle"
+  ],
+  "limitations": [
+    "No target game application is present: integrate with its navigation, collisions and task events.",
+    "Left clips use mirrored authored right art plus canonical standing overrides.",
+    "New lounge clips provide lateral directions; vertical carrying requires additional art or a carefully staged direction in the target scene.",
+    "Seat/cabinet/partner offsets are initial placements for this office; calibrate collisions and foreground furniture masks in the game."
+  ]
+}

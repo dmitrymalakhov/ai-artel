@@ -44,15 +44,15 @@ async function main(){
   await page.goto('file://'+path.join(root,'index.html'));await page.waitForFunction(()=>window.DOOR_DEMO?.ready);
   await page.evaluate(()=>{DOOR_DEMO.setPaused(true);for(const m of DOOR_DEMO.models){m.auto=false;m.actor.restUntil=Infinity;}DOOR_DEMO.advance(0);});
   await page.screenshot({path:path.join(root,'previews/closed.png'),fullPage:true});
-  await page.locator('[data-action=pass]').nth(0).click();await page.locator('[data-action=pass]').nth(1).click();
+  for(let i=0;i<manifest.doors.length;i++)await page.locator('[data-action=pass]').nth(i).click();
   await page.evaluate(()=>DOOR_DEMO.advance(400));await page.screenshot({path:path.join(root,'previews/opening.png'),fullPage:true});
-  await page.evaluate(()=>DOOR_DEMO.advance(400));assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.controller.state)),['open','open']);
+  await page.evaluate(()=>DOOR_DEMO.advance(400));assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.controller.state)),manifest.doors.map(()=> 'open'));
   await page.screenshot({path:path.join(root,'previews/open-passage.png'),fullPage:true});
-  await page.locator('.detail canvas').nth(0).screenshot({path:path.join(root,'previews/manager-open.png')});await page.locator('.detail canvas').nth(1).screenshot({path:path.join(root,'previews/meeting-open.png')});
-  await page.evaluate(()=>DOOR_DEMO.advance(2200));assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.actor.side)),['room','room']);
-  await page.evaluate(()=>{DOOR_DEMO.advance(1100);DOOR_DEMO.advance(800);});assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.controller.state)),['closed','closed']);
-  await page.locator('[data-action=pass]').nth(0).click();await page.locator('[data-action=pass]').nth(1).click();
-  await page.evaluate(()=>{DOOR_DEMO.advance(800);DOOR_DEMO.advance(2200);});assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.actor.side)),['corridor','corridor']);
+  await page.locator('.detail canvas').nth(0).screenshot({path:path.join(root,'previews/manager-open.png')});await page.locator('.detail canvas').nth(1).screenshot({path:path.join(root,'previews/meeting-open.png')});await page.locator('.detail canvas').nth(2).screenshot({path:path.join(root,'previews/entrance-open.png')});
+  await page.evaluate(()=>DOOR_DEMO.advance(2200));assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.actor.side)),manifest.doors.map(()=> 'room'));
+  await page.evaluate(()=>{DOOR_DEMO.advance(1100);DOOR_DEMO.advance(800);});assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.controller.state)),manifest.doors.map(()=> 'closed'));
+  for(let i=0;i<manifest.doors.length;i++)await page.locator('[data-action=pass]').nth(i).click();
+  await page.evaluate(()=>{DOOR_DEMO.advance(800);DOOR_DEMO.advance(2200);});assert.deepEqual(await page.evaluate(()=>DOOR_DEMO.models.map(m=>m.actor.side)),manifest.doors.map(()=> 'corridor'));
   await page.evaluate(()=>{DOOR_DEMO.advance(1100);DOOR_DEMO.advance(800);});
   // Record one entry-and-exit cycle deterministically for GIF/MP4 export.
   const temp=await fs.mkdtemp('/private/tmp/artel-doors-');
@@ -62,8 +62,8 @@ async function main(){
   await fs.writeFile(path.join(root,'docs/RECORDING_TEMP.json'),JSON.stringify({temp,frameCount:132,fps:10}));
   await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await page.screenshot({path:path.join(root,'previews/mobile.png'),fullPage:false});assert.deepEqual(errors,[]);await browser.close();
-  report.checks=['8 distinct RGBA frames per door','No clipped frame edges','Fully open leaves clear center traversal lane','Closing reuses opening frames in reverse','Closed/partial opening blocks traversal','FIFO two-way requests and deduplication','Active traversal and nearby sensors prevent auto-close','Obstacle prevents auto-close','Reversal retains visible pose','Deletion, cancellation and ownership-safe release','Large time delta and invalid input handling','Original background pixels unchanged outside entrance patches','Offline browser preview loads without errors','Both doors allow entry and return','Desktop and mobile layout','Deterministic cycle recorded for video'];
+  report.checks=['8 distinct RGBA frames per door','No clipped frame edges','Fully open leaves clear center traversal lane','Closing reuses opening frames in reverse','Closed/partial opening blocks traversal','FIFO two-way requests and deduplication','Active traversal and nearby sensors prevent auto-close','Obstacle prevents auto-close','Reversal retains visible pose','Deletion, cancellation and ownership-safe release','Large time delta and invalid input handling','Original background pixels unchanged outside declared scene patches','Offline browser preview loads without errors','All three doors allow entry and return','Desktop and mobile layout','Deterministic cycle recorded for video'];
   await fs.writeFile(path.join(root,'docs/VALIDATION.json'),JSON.stringify(report,null,2));
-  console.log('Verified 16 frames, passage controller, preserved background, entry/exit preview and mobile. Recording: '+temp);
+  console.log('Verified 24 frames, passage controller, preserved background, entry/exit preview and mobile. Recording: '+temp);
 }
 main().catch(e=>{console.error(e);process.exitCode=1});

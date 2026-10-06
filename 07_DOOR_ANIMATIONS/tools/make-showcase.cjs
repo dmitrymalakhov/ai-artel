@@ -5,15 +5,15 @@ async function main(){
   const clips=await fs.mkdtemp('/private/tmp/artel-doors-detail-');
   for(let i=0;i<recording.frameCount;i++){
     const file=path.join(recording.temp,'frame-'+String(i).padStart(3,'0')+'.png'),meta=await sharp(file).metadata(),s=meta.width/1254;
-    const regions=[{left:342,top:294,width:190,height:196},{left:700,top:434,width:315,height:214}];
+    const regions=[{left:342,top:294,width:190,height:196},{left:700,top:434,width:315,height:214},{left:516,top:939,width:212,height:242}];
     const inputs=[];
-    for(let j=0;j<2;j++){
+    for(let j=0;j<3;j++){
       const r=regions[j],rect=Object.fromEntries(Object.entries(r).map(([k,v])=>[k,Math.round(v*s)]));
       const input=await sharp(file).extract(rect).resize({height:392,kernel:'nearest'}).png().toBuffer();
-      inputs.push({input,left:j===0?20:422,top:58});
+      inputs.push({input,left:[20,422,1020][j],top:58});
     }
-    const title=Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="482"><text x="20" y="34" fill="#e7dfce" font-family="Arial" font-size="21">Кабинет руководителя</text><text x="422" y="34" fill="#e7dfce" font-family="Arial" font-size="21">Переговорная</text><text x="20" y="474" fill="#b3beb9" font-family="Arial" font-size="14">AI ARTEL · Двери открываются перед проходом и закрываются после выхода персонажа</text></svg>');
-    await sharp({create:{width:1020,height:482,channels:4,background:'#1b2227'}}).composite([...inputs,{input:title,left:0,top:0}]).png().toFile(path.join(clips,'frame-'+String(i).padStart(3,'0')+'.png'));
+    const title=Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="482"><text x="20" y="34" fill="#e7dfce" font-family="Arial" font-size="21">Кабинет руководителя</text><text x="422" y="34" fill="#e7dfce" font-family="Arial" font-size="21">Переговорная</text><text x="1020" y="34" fill="#e7dfce" font-family="Arial" font-size="21">Вход в офис</text><text x="20" y="474" fill="#b3beb9" font-family="Arial" font-size="14">AI ARTEL · Двери открываются перед проходом и закрываются после выхода персонажа</text></svg>');
+    await sharp({create:{width:1400,height:482,channels:4,background:'#1b2227'}}).composite([...inputs,{input:title,left:0,top:0}]).png().toFile(path.join(clips,'frame-'+String(i).padStart(3,'0')+'.png'));
   }
   const ffmpeg=process.env.ARTEL_FFMPEG||'ffmpeg';
   const common=['-hide_banner','-loglevel','error','-y','-framerate',String(recording.fps),'-i',path.join(clips,'frame-%03d.png')];

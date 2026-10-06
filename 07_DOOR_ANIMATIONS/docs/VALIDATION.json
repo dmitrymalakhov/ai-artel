@@ -9,6 +9,11 @@
       "id": "meeting_room",
       "uniqueFrames": 8,
       "openingDurationMs": 800
+    },
+    {
+      "id": "office_entrance",
+      "uniqueFrames": 8,
+      "openingDurationMs": 800
     }
   ],
   "checks": [
@@ -23,9 +28,9 @@
     "Reversal retains visible pose",
     "Deletion, cancellation and ownership-safe release",
     "Large time delta and invalid input handling",
-    "Original background pixels unchanged outside entrance patches",
+    "Original background pixels unchanged outside declared scene patches",
     "Offline browser preview loads without errors",
-    "Both doors allow entry and return",
+    "All three doors allow entry and return",
     "Desktop and mobile layout",
     "Deterministic cycle recorded for video"
   ],
@@ -33,5 +38,5 @@
     "No target game application is present; engine integration and actual navigation/collision geometry remain to be checked in the target project.",
     "Coordinates use the provided 1254x1254 office scene; adapt all coordinates uniformly if its scale changes."
   ],
-  "preservedBackgroundPixels": 1549566
+  "preservedBackgroundPixels": 1331001
 }

@@ -30,6 +30,28 @@
         "transparent_background": true,
         "prompt": "Use case: precise-object-edit. Reference: EXISTING paired glass meeting-room doors in pixel-art office. Create transparent animation sprite sheet showing ONLY the TWO MOVABLE GLASS LEAVES as a pair sliding apart horizontally. EXACT 4 columns x2 rows, eight equal square cells chronological row-major. NO stationary top rail, no outer wall, no floor, no stationary central mullion. Match teal translucent glass, cream/slate metal outlines, little silver handles close to CENTER seam, diagonal blue glass reflections, crisp chunky office pixel art of reference. Identical two leaf sizes and silhouettes across frames, each leaf height50% cell height and width22% cell width. Fixed baseline y=80% cell height. Frame0 pair closed together at middle of cell, handles near central seam. Frames1..6 left leaf progressively slides LEFT and right leaf RIGHT, gap monotonically increases. Frame7 fully open with both leaves retracted to opposite edges, central gap about42% cell width. Leaves remain same size throughout, no rotations or hinge swing. Max width of open pair90% cellwidth; sufficient transparent padding so leaves never touch neighboring cell. True transparent alpha background, no checkerboard texture. Eight distinct poses, no labels, no extra objects. This is a movable foreground layer that will sit over a static clean doorway opening."
       }
+    },
+    {
+      "id": "entrance-opening",
+      "file": "entrance-opening.png",
+      "args": {
+        "referenced_image_paths": [
+          "/Users/dmitrii.malakhov/git/ai-artel/08_LOUNGE_AND_SOCIAL/sources/entrance-reference.png"
+        ],
+        "transparent_background": true,
+        "prompt": "Use case: precise-object-edit. Create animation of ONLY the TWO movable exterior entry glass door leaves shown in reference. Pixel art exact teal glass, diagonal blue reflections, steel cream dark borders, central little silver handles. Transparent sheet 4 columns x2 rows, equal cells, 8 chronological poses. Frame0 closed at center; frames1..6 slide left leaf left and right leaf right monotonically; frame7 gap wide enough for a person, leaves fully retracted to edges. Each leaf same size throughout, fixed ground baseline, enough outer transparent margins. No static posts, rail, floor, plants, walls, people, text, checkerboard. Match original office entrance, front/top-down scene perspective; keep proportions wider than meeting room door. True transparent alpha."
+      }
+    },
+    {
+      "id": "office-upgrade",
+      "file": "office-upgrade.png",
+      "args": {
+        "referenced_image_paths": [
+          "/Users/dmitrii.malakhov/git/ai-artel/07_DOOR_ANIMATIONS/scene/character_free_doors_open.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Use case: precise-object-edit. EDIT this exact office scene. Make only THREE requested localized practical changes, preserve camera, pixel-art style, all walls, all other objects and colors exactly. (1) Clear exterior entrance at bottom center x548..697 y1014..1103 of two movable glass door leaves and central stile; retain static side posts and top beam and exterior teal mat; restore clear connected floor through doorway, no movable leaves drawn. (2) The low filing cabinet immediately above entrance, x541..770 y847..989 including its plant, must shift UP by about60 pixels, keeping identical shape and scale, restoring warm wooden floor where it was; this creates a clear interior approach corridor above entrance. Do NOT move printer left of cabinet. (3) Within orange lounge rug only, move the teal lounge ARMCHAIR about20px left and25px down to clear the rug's top-left corner for a later TV cabinet. Keep blue sofa and coffee table exactly where they are; restore rug behind moved chair. Do NOT add television, cabinet or console yet, those will be separate sprites. No people, no new decorations, no text. Keep both already clear inner doorways clear. Output same square full scene composition."
+      }
     }
   ]
 }

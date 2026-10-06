@@ -13,6 +13,27 @@
       "height": 110
     }
   ],
+  "upgradePatches": [
+    {
+      "left": 550,
+      "top": 1015,
+      "width": 145,
+      "height": 87
+    },
+    {
+      "left": 535,
+      "top": 685,
+      "width": 240,
+      "height": 320
+    },
+    {
+      "left": 775,
+      "top": 675,
+      "width": 410,
+      "height": 315
+    }
+  ],
+  "upgradeSource": "sources/office-upgrade.png",
   "frames": [
     {
       "door": "manager_office",
@@ -284,6 +305,142 @@
         "y": 62,
         "w": 244,
         "h": 106
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 0,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 67,
+        "top": 125,
+        "width": 342,
+        "height": 249
+      },
+      "destination": {
+        "x": 58,
+        "y": 84,
+        "w": 140,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 1,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 499,
+        "top": 125,
+        "width": 349,
+        "height": 249
+      },
+      "destination": {
+        "x": 57,
+        "y": 84,
+        "w": 143,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 2,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 915,
+        "top": 125,
+        "width": 371,
+        "height": 249
+      },
+      "destination": {
+        "x": 52,
+        "y": 84,
+        "w": 152,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 3,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 1344,
+        "top": 125,
+        "width": 388,
+        "height": 249
+      },
+      "destination": {
+        "x": 49,
+        "y": 84,
+        "w": 159,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 4,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 46,
+        "top": 515,
+        "width": 386,
+        "height": 249
+      },
+      "destination": {
+        "x": 49,
+        "y": 84,
+        "w": 158,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 5,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 485,
+        "top": 515,
+        "width": 373,
+        "height": 250
+      },
+      "destination": {
+        "x": 52,
+        "y": 84,
+        "w": 153,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 6,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 909,
+        "top": 515,
+        "width": 381,
+        "height": 249
+      },
+      "destination": {
+        "x": 50,
+        "y": 84,
+        "w": 156,
+        "h": 84
+      }
+    },
+    {
+      "door": "office_entrance",
+      "frame": 7,
+      "source": "entrance-opening.png",
+      "sourceBounds": {
+        "left": 1340,
+        "top": 515,
+        "width": 391,
+        "height": 249
+      },
+      "destination": {
+        "x": 48,
+        "y": 84,
+        "w": 160,
+        "h": 84
       }
     }
   ]
